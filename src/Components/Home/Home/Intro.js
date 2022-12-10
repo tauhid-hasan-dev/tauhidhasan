@@ -3,6 +3,11 @@ import { FaCss3, FaHtml5, FaJsSquare, FaNodeJs, FaReact } from "react-icons/fa";
 import { SiBootstrap, SiExpress, SiFirebase, SiGit, SiGithub, SiMongodb, SiTailwindcss } from "react-icons/si";
 
 const Intro = () => {
+
+
+
+
+    
     return (
         <div className='h-screen mt-10 lg:mt-16 bg-background px-8 lg:px-40 py-28 flex flex-col gap-12'>
             <div className=' flex flex-col gap-5 ' >
