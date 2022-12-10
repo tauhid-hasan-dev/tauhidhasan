@@ -1,9 +1,12 @@
 import React from 'react';
+import Experiences from './Experiences';
+import Intro from './Intro';
 
 const Home = () => {
     return (
         <div>
-            <p>this is home</p>
+            <Intro></Intro>
+            <Experiences></Experiences>
         </div>
     );
 };

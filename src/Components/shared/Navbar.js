@@ -23,7 +23,7 @@ const Navbar = () => {
 
     </>
     return (
-        <div className={`navbar bg-background shadow-md px-5 border-b border-slate-500 lg:px-28 py-5 `}>
+        <div className={`navbar fixed top-0 bg-background shadow-md px-5   lg:px-28 py-5 `}>
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden text-white text-6xl">
