@@ -18,18 +18,18 @@ const Intro = () => {
             </div>
             <div className='p-5 rounded-lg  lg:mt-16  bg-skills shadow-xl flex justify-center '>
                 <div className='w-[100%] lg:w-[85%] grid grid-cols-4 lg:grid-cols-12 gap-2 lg:gap-3 '>
-                    <FaJsSquare className='text-4xl lg:text-6xl text-orange-300'></FaJsSquare>
-                    <FaReact className='text-4xl lg:text-6xl text-blue-300'></FaReact>
-                    <FaHtml5 className='text-4xl lg:text-6xl text-orange-500'></FaHtml5>
-                    <FaCss3 className='text-4xl lg:text-6xl text-blue-400'></FaCss3>
-                    <FaNodeJs className='text-4xl lg:text-6xl text-green-400'></FaNodeJs>
-                    <SiTailwindcss className='text-4xl lg:text-6xl text-blue-300'></SiTailwindcss>
-                    <SiBootstrap className='text-4xl lg:text-6xl text-blue-600'></SiBootstrap>
-                    <SiExpress className='text-4xl lg:text-6xl text-gray-500'></SiExpress>
-                    <SiMongodb className='text-4xl lg:text-6xl text-green-600'></SiMongodb>
-                    <SiFirebase className='text-4xl lg:text-6xl text-orange-600'></SiFirebase>
-                    <SiGit className='text-4xl lg:text-6xl text-orange-800'></SiGit>
-                    <SiGithub className='text-4xl lg:text-6xl text-gray-600'></SiGithub>
+                    <FaJsSquare className='text-4xl lg:text-6xl text-orange-300 hover:scale-105 transform transition duration-300'></FaJsSquare>
+                    <FaReact className='text-4xl lg:text-6xl text-blue-300 hover:scale-105 transform transition duration-300'></FaReact>
+                    <FaHtml5 className='text-4xl lg:text-6xl text-orange-500 hover:scale-105 transform transition duration-300'></FaHtml5>
+                    <FaCss3 className='text-4xl lg:text-6xl text-blue-400 hover:scale-105 transform transition duration-300'></FaCss3>
+                    <FaNodeJs className='text-4xl lg:text-6xl text-green-400 hover:scale-105 transform transition duration-300'></FaNodeJs>
+                    <SiTailwindcss className='text-4xl lg:text-6xl text-blue-300 hover:scale-105 transform transition duration-300'></SiTailwindcss>
+                    <SiBootstrap className='text-4xl lg:text-6xl text-blue-600 hover:scale-105 transform transition duration-300'></SiBootstrap>
+                    <SiExpress className='text-4xl lg:text-6xl text-gray-500 hover:scale-105 transform transition duration-300'></SiExpress>
+                    <SiMongodb className='text-4xl lg:text-6xl text-green-600 hover:scale-105 transform transition duration-300'></SiMongodb>
+                    <SiFirebase className='text-4xl lg:text-6xl text-orange-600 hover:scale-105 transform transition duration-300'></SiFirebase>
+                    <SiGit className='text-4xl lg:text-6xl text-orange-800 hover:scale-105 transform transition duration-300'></SiGit>
+                    <SiGithub className='text-4xl lg:text-6xl text-gray-600 hover:scale-105 transform transition duration-300'></SiGithub>
                 </div>
             </div>
         </div>

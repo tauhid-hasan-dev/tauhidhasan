@@ -13,7 +13,7 @@ const Projects = () => {
             live: 'https://used-book-store-90b6b.web.app/',
             client: 'https://github.com/tauhid-hasan-dev/used-books-client',
             server: 'https://github.com/tauhid-hasan-dev/used-books-server',
-            technology: ['ReactJs', 'Tailwind CSS', 'ExpressJs', 'MongoDB', 'Firebase']
+            technology: ['ReactJs', 'Tailwind CSS', 'ExpressJs', 'MongoDB', 'Firebase', 'Stripe', 'Axios']
         },
         {
             id: '02',
@@ -24,7 +24,7 @@ const Projects = () => {
             live: 'https://architect-tauhid-hasan.web.app/',
             client: 'https://github.com/tauhid-hasan-dev/architect-zaha-hadid-client',
             server: 'https://github.com/tauhid-hasan-dev/architect-zaha-hadid-server',
-            technology: ['ReactJs', 'Tailwind CSS', 'ExpressJs', 'MongoDB', 'Firebase']
+            technology: ['ReactJs', 'Tailwind CSS', 'ExpressJs', 'MongoDB', 'Firebase', 'JSON Web Token']
         },
         {
             id: '03',
@@ -35,7 +35,7 @@ const Projects = () => {
             live: 'https://learning-platform-client-d552c.web.app/',
             client: 'https://github.com/tauhid-hasan-dev/edu-cate-ed-tech-client',
             server: 'https://github.com/tauhid-hasan-dev/edu-cate-ed-tech-server',
-            technology: ['ReactJs', 'Tailwind CSS', 'ExpressJs', 'MongoDB', 'Firebase']
+            technology: ['ReactJs', 'Tailwind CSS', 'ExpressJs', 'Firebase', ]
         },
     ]
     return (
