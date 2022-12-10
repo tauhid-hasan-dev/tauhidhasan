@@ -5,19 +5,19 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const menuItem = <>
-        <li >
-            <a href="#intro">About</a>
+        <li className='text-sm'>
+            <a href="#intro" >About</a>
         </li>
         {/* <li >
             <a href="#experience">Experiences</a>
         </li> */}
-        <li  >
+        <li className='text-sm'>
             <a href="#projects">Projects</a>
         </li>
-        <li >
+        <li className='text-sm'>
             <a href="#contact">Contact</a>
         </li>
-        <li>
+        <li className='text-sm'>
             <a href='https://drive.google.com/file/d/1ix8ayp0IoC7mFdCLm0ZmK4v3okuf3HhK/view' className='pl-2 lg:pl-4 ' target="_blank" ><button className="hover:bg-slate-600 border border-text px-2  py-1  rounded " target="_blank">Resume</button></a>
         </li>
 

@@ -12,9 +12,9 @@ const Project = ({ project }) => {
                 </div>
                 <div className='w-[100%] lg:w-[50%] flex flex-col items-center lg:items-end'>
                     <div className='flex gap-2 mb-5'>
-                        <a href={live} className='px-2 lg:px-2 py-1  text-slate-300 rounded text-sm ' target="_blank"><FaExternalLinkAlt className='text-xl'></FaExternalLinkAlt></a>
-                        <a href={client} className='px-2 lg:px-2 py-1  text-slate-300 rounded text-sm' target="_blank"><FaGithub className='text-xl'></FaGithub></a>
-                        <a href={server} className='px-2 lg:px-2 py-1  text-slate-300 rounded text-sm' target="_blank"><FaServer className='text-xl'></FaServer></a>
+                        <a href={live} className='px-2 lg:px-2 py-1  text-slate-300 rounded text-sm ' target="_blank"><FaExternalLinkAlt className='text-xl hover:text-text'></FaExternalLinkAlt></a>
+                        <a href={client} className='px-2 lg:px-2 py-1  text-slate-300 rounded text-sm' target="_blank"><FaGithub className='text-xl hover:text-text'></FaGithub></a>
+                        <a href={server} className='px-2 lg:px-2 py-1  text-slate-300 rounded text-sm ' target="_blank"><FaServer className='text-xl hover:text-text'></FaServer></a>
                     </div>
 
                     <p className='text-slate-400'>{about}</p>

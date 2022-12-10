@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-hot-toast';
 
 const Contact = () => {
 
@@ -13,6 +14,8 @@ const Contact = () => {
             .then((result) => {
                 console.log(result.text);
                 console.log('sucessfull');
+                toast.success('Your message sent succefully');
+
             }, (error) => {
                 console.log(error.text);
             });
