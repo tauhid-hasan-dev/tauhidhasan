@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaCss3, FaHtml5, FaJsSquare, FaNodeJs, FaReact } from "react-icons/fa";
-import { SiBitbucket, SiBootstrap, SiExpress, SiFirebase, SiGit, SiGithub, SiMongodb, SiTailwindcss } from "react-icons/si";
+import { SiBootstrap, SiExpress, SiFirebase, SiGit, SiGithub, SiMongodb, SiTailwindcss } from "react-icons/si";
 
 const Intro = () => {
     return (

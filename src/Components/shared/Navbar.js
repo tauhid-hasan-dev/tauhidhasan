@@ -1,4 +1,5 @@
 import React from 'react';
+import { SiGithub } from 'react-icons/si';
 import { Link, NavLink } from 'react-router-dom';
 
 
@@ -7,9 +8,9 @@ const Navbar = () => {
         <li >
             <a href="#intro">About</a>
         </li>
-        <li >
+        {/* <li >
             <a href="#experience">Experiences</a>
-        </li>
+        </li> */}
         <li  >
             <a href="#projects">Projects</a>
         </li>
@@ -39,8 +40,10 @@ const Navbar = () => {
                 </Link>
             </div>
 
+
+
             <div className="navbar-end hidden lg:flex">
-                <ul className="menu menu-horizontal p-0 text-slate-100 gap-5 text-lg ">
+                <ul className="menu menu-horizontal p-0 text-slate-100 gap-2 text-lg ">
                     {menuItem}
                 </ul>
             </div>
