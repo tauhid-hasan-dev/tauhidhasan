@@ -5,8 +5,8 @@ import { FaExternalLinkAlt, FaGithub, FaServer } from "react-icons/fa";
 const Project = ({ project }) => {
     const { img, about, headline, live, client, server, id, summery, technology } = project;
     return (
-        <div>
-            <div className='flex gap-10 lg:flex-row flex-col'>
+        <div className='flex flex-col items-center lg:items-start bg-skills lg:bg-background pb-5 lg:pb-0' >
+            < div className='flex gap-4 lg:gap-10 lg:flex-row flex-col' >
                 <div className='w-[100%] lg:w-[50%] '>
                     <img className='rounded-lg  hover:scale-105 transform transition duration-700 ' src={img} alt="" />
                 </div>
@@ -25,16 +25,19 @@ const Project = ({ project }) => {
                         </p>
                     </div>
                     <div className='w-[100%] flex justify-center lg:justify-end'>
-                        <div className='flex flex-wrap gap-2 lg:gap-1 mt-5 lg:mt-5  '>
+                        <div className='flex flex-wrap gap-2 lg:gap-1 mt-5 lg:mt-5 px-5 lg:px-0 '>
                             {
                                 technology.map((tech, idx) => <p key={idx} className='text-slate-300 px-1 text-[12px] lg:text-[16px]   lg:px-2 py-1 bg-slate-800 rounded '>{tech}</p>)
                             }
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
+
             <Link to={`/project/details/${id}`}><button className=" px-2  py-1  rounded mt-5 text-white bg-gradient-to-r from-blue-600 to-sky-600 hover:from-blue-700 hover:to-sky-700 " target="_blank">Project Details</button></Link>
-        </div>
+
+
+        </div >
     );
 };
 

@@ -14,7 +14,7 @@ const Projects = () => {
     }, [])
 
     return (
-        <div className='bg-background px-8 lg:px-40 py-14 lg:py-28 flex flex-col gap-10' id='projects'>
+        <div className='bg-background px-8 lg:px-40 py-14 lg:py-28 flex flex-col gap-16' id='projects'>
             <div className='text-slate-200 font-bold text-3xl '>
                 Some of My Projects
             </div>

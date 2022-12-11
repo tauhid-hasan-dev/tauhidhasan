@@ -13,8 +13,8 @@ const About = () => {
                 </div>
             </div>
             <div className=''>
-                <div className=' w-[100%] lg:w-[80%] rounded'>
-                    <img className='rounded hover:scale-105 transform transition duration-700' src="https://i.ibb.co/f9ssmTh/tauhid-hasan.jpg" alt="" />
+                <div className=' w-[100%] lg:w-[90%] rounded'>
+                    <img className='rounded-lg hover:scale-105 transform transition duration-700' src="https://i.ibb.co/f9ssmTh/tauhid-hasan.jpg" alt="" />
                 </div>
             </div >
         </div>
