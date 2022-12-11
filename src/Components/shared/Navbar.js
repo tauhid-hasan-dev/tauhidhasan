@@ -1,21 +1,21 @@
 import React from 'react';
-import { SiGithub } from 'react-icons/si';
+import { SiGithub, SiLinkedin } from 'react-icons/si';
 import { Link, NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
     const menuItem = <>
-        <li className='text-sm'>
+        <li className='text-sm hover:text-text'>
             <a href="#about" >About</a>
         </li>
-        <li className='text-sm'>
+        <li className='text-sm hover:text-text'>
             <a href="#projects">Projects</a>
         </li>
-        <li className='text-sm'>
+        <li className='text-sm hover:text-text'>
             <Link to='/blog'>Blog</Link>
         </li>
 
-        <li className='text-sm'>
+        <li className='text-sm hover:text-text'>
             <a href="#contact">Contact</a>
         </li>
         <li className='text-sm'>
@@ -24,7 +24,7 @@ const Navbar = () => {
 
     </>
     return (
-        <div className={`navbar fixed top-0 bg-background shadow-md px-5 lg:px-20 py-5 `}>
+        <div className={`navbar z-[999] fixed top-0 bg-background shadow-md px-5 lg:px-20 py-5  `}>
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden text-white text-6xl">
@@ -34,22 +34,22 @@ const Navbar = () => {
                         {menuItem}
                     </ul>
                 </div>
-                <Link to="/" className="normal-case text-xl   lg:text-4xl text-white font-semibold ">
-                    <div className='flex  items-center justify-center'>
-                        <p className='block ml-2 font-bold text-text text-3xl lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-text to-blue-500 '>tasan.</p>
+                <Link to="/" >
+                    <div className='flex  items-center justify-center normal-case text-xl   lg:text-4xl text-white font-semibold'>
+                        <p className='block ml-0 lg:ml-2 font-bold text-text text-3xl lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-text to-blue-500 '>tasan.</p>
                     </div>
                 </Link>
             </div>
-
-
-
-
-
+            <div className="navbar-middle flex gap-3 ml-24 lg:mr-32">
+                <a href="https://github.com/tauhid-hasan-dev" target='blank'><SiGithub className='text-lg lg:text-[16px] text-slate-400 hover:text-text' ></SiGithub></a>
+                <a href="https://www.linkedin.com/in/tauhid-hasan/" target='blank'><SiLinkedin className='text-lg lg:text-[16px] text-slate-400 hover:text-text' ></SiLinkedin></a>
+            </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal p-0 text-slate-100 gap-2 text-lg ">
                     {menuItem}
                 </ul>
             </div>
+
         </div >
     );
 };

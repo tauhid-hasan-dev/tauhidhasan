@@ -23,7 +23,6 @@ const Project = ({ project }) => {
                     <div className='bg-skills text-slate-300 p-5 font-light flex flex-col items-start w-[100%] mt-3'>
                         <p className=''>{summery}
                         </p>
-
                     </div>
                     <div className='w-[100%] flex justify-center lg:justify-end'>
                         <div className='flex flex-wrap gap-2 lg:gap-1 mt-5 lg:mt-5  '>

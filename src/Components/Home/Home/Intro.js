@@ -4,26 +4,17 @@ import { SiBootstrap, SiExpress, SiFirebase, SiGit, SiGithub, SiLinkedin, SiMong
 
 const Intro = () => {
 
-
-
-
-
     return (
-        <div className='h-screen mt-10 lg:mt-16 bg-background px-8 lg:px-56 pt-28 pb-10 flex flex-col gap-12'>
-            <div className=' flex flex-col gap-5 ' >
+        <div className='mt-8 lg:mt-16 bg-background px-8 lg:px-56 pt-24 lg:pt-28 pb-0 lg:pb-10 flex flex-col gap-12'>
+            <div className=' flex flex-col gap-1 lg:gap-5 ' >
                 <div className='flex flex-col lg:flex-row lg:items-end items-start gap-2'>
-                    <p className='text-text'>Hello, I am </p> <p className='text-3xl lg:text-5xl font-semibold text-slate-500'>Tauhid Hasan</p>
+                    <p className='text-text'></p> <p className='text-3xl lg:text-5xl font-semibold text-slate-500'>Tauhid Hasan</p>
                 </div>
                 <div className='flex flex-col lg:flex-row lg:items-end items-start gap-2  '>
-                    <p className='text-text'>And, I am a </p> <p className='text-4xl lg:text-4xl lg:text-6xl font-semibold text-slate-300'>Frontend Developer</p>
+                    <p className='text-text'> </p> <p className='text-4xl lg:text-6xl font-semibold text-slate-300'>Frontend Developer </p>
                 </div>
             </div>
-            {/*  <div className="flex flex-col fixed left-20 bottom-0 gap-4">
-                <a href="https://github.com/tauhid-hasan-dev" target='blank'><SiGithub className='text-xl lg:text-lg text-gray-300' ></SiGithub></a>
-                <a href="https://www.linkedin.com/in/tauhid-hasan/" target='blank'><SiLinkedin className='text-lg lg:text-lg text-blue-600' ></SiLinkedin></a>
 
-
-            </div> */}
             <div className='lg:w-[60%] w-[100%]'>
                 <p className=' text-slate-400 text-lg  '>I'm passionate about bringing the technical and visual aspects of digital products to life and care deeply about the user interface and user experience, beautiful pixels, and writing clean accessible code that's readable by humans. </p>
             </div>
