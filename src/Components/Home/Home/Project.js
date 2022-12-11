@@ -34,7 +34,7 @@ const Project = ({ project }) => {
                 </div>
             </div >
 
-            <Link to={`/project/details/${id}`}><button className=" px-2  py-1  rounded mt-5 text-white bg-gradient-to-r from-blue-600 to-sky-600 hover:from-blue-700 hover:to-sky-700 " target="_blank">Project Details</button></Link>
+            <Link to={`/project/details/${id}`}><button className="px-2  py-1  rounded mt-5 text-white bg-gradient-to-r from-blue-600 to-sky-600 hover:from-blue-700 hover:to-sky-700" target="_blank">Project Details</button></Link>
 
 
         </div >

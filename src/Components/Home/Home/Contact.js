@@ -6,10 +6,8 @@ import { toast } from 'react-hot-toast';
 const Contact = () => {
 
     const form = useRef();
-
     const sendEmail = (e) => {
         e.preventDefault();
-
         emailjs.sendForm('service_cishln6', 'template_0q6lutg', form.current, '94VsAnmtgsysF7Ig9')
             .then((result) => {
                 console.log(result.text);
@@ -22,16 +20,6 @@ const Contact = () => {
     };
 
 
-
-    /* <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form> */
     return (
         <div className=' bg-background ' id='contact'>
             <div className='w-full flex justify-center bg-background py-16 '>
