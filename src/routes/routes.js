@@ -1,8 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
-import Experiences from "../Components/Home/Home/Experiences";
+import Details from "../Components/Details/Details";
 import Home from "../Components/Home/Home/Home";
-import Intro from "../Components/Home/Home/Intro";
-import Projects from "../Components/Home/Home/Projects";
 import Main from "../layout/Main";
 
 export const router = createBrowserRouter([
@@ -14,6 +12,11 @@ export const router = createBrowserRouter([
                 path: '/',
                 element: <Home></Home>
             },
+            {
+                path: '/project/details/:id',
+                element: <Details></Details>,
+                loader: ({ params }) => fetch(`https://portfolio-tauhid-server.vercel.app/projects/${params.id}`)
+            }
 
         ]
     }

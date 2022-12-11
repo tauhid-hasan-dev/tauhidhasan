@@ -44,7 +44,7 @@ const Contact = () => {
 
                         <textarea name='message' type='text' className="bg-slate-500 text-white  focus:bg-slate-700 textarea rounded-none w-full" placeholder="Your message" required></textarea>
                         {/* <input type='submit' className=" border border-text w-full py-3 px-10 text-white  hover:bg-slate-800 rounded">Sumbit</input> */}
-                        <input type="submit" value="Send" className=" border border-text w-full py-3 px-10 text-white  hover:bg-slate-800 rounded" />
+                        <input type="submit" value="Send" className=" bg-gradient-to-r from-blue-600 to-sky-600 hover:from-blue-700 hover:to-sky-700 w-full py-3 px-10 text-white  cursor-pointer rounded" />
                     </form>
                 </div>
             </div>

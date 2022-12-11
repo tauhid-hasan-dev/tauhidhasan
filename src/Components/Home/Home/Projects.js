@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Project from './Project';
 
 const Projects = () => {
+    const [projects, setProjects] = useState([])
+    /* console.log(projects) */
 
-    const projects = [
+    /* const projects = [
         {
             id: '01',
             img: 'https://i.ibb.co/B2VrfSY/dsfsdfsdf.jpg',
@@ -37,7 +39,17 @@ const Projects = () => {
             server: 'https://github.com/tauhid-hasan-dev/edu-cate-ed-tech-server',
             technology: ['ReactJs', 'Tailwind CSS', 'ExpressJs', 'Firebase', ]
         },
-    ]
+    ] */
+
+    useEffect(() => {
+        fetch('https://portfolio-tauhid-server.vercel.app/projects')
+            .then(res => res.json())
+            .then(data => {
+                /* console.log(data); */
+                setProjects(data)
+            })
+    }, [])
+
     return (
         <div className='px-8 py-14 lg:py-28 flex flex-col gap-28 lg:gap-40  bg-skills lg:px-40' id='projects' >
             {

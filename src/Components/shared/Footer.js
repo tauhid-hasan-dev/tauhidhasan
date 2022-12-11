@@ -10,8 +10,8 @@ const Footer = () => {
 
 
             <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-                <a href="https://github.com/tauhid-hasan-dev" target='blank'><SiGithub className='text-4xl lg:text-3xl text-gray-300' ></SiGithub></a>
-                <a href="https://www.linkedin.com/in/tauhid-hasan/" target='blank'><SiLinkedin className='text-4xl lg:text-3xl text-blue-600' ></SiLinkedin></a>
+                <a href="https://github.com/tauhid-hasan-dev" target='blank'><SiGithub className='text-xl lg:text-2xl text-gray-300' ></SiGithub></a>
+                <a href="https://www.linkedin.com/in/tauhid-hasan/" target='blank'><SiLinkedin className='text-xl lg:text-2xl text-blue-600' ></SiLinkedin></a>
             </div>
         </footer>
     );
