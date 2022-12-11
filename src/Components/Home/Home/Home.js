@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './About';
 import Contact from './Contact';
 /* import Experiences from './Experiences'; */
 import Intro from './Intro';
@@ -8,6 +9,7 @@ const Home = () => {
     return (
         <div>
             <Intro></Intro>
+            <About></About>
             {/* <Experiences></Experiences> */}
             <Projects></Projects>
             <Contact></Contact>

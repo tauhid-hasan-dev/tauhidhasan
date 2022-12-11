@@ -1,14 +1,17 @@
 import React from 'react';
-import { FaExternalLinkAlt, FaGithub, FaServer } from 'react-icons/fa';
-import { useLoaderData } from 'react-router-dom';
+import { FaExternalLinkAlt, FaGithub, FaHome, FaServer } from 'react-icons/fa';
+import { Link, useLoaderData } from 'react-router-dom';
 
 const Details = () => {
     const project = useLoaderData()
     const { imgOne, imgTwo, imgThree, imgFour, imgFive, imgSix, textOne, textTwo, textThree, textFour, textFive, textSix, headline, about, details, technology, live, client, server } = project;
     return (
-        <div className='mt-16 px-5 lg:px-24 bg-background py-20 text-slate-200'>
+        <div className=' px-5 lg:px-24 bg-background py-10 lg:py-20 text-slate-200'>
+            <Link to='/'><div className='text-2xl lg:text-4xl hover:text-text flex justify-center lg:justify-start mb-5'>
+                <FaHome></FaHome>
+            </div></Link>
             <div className=' flex-col  flex justify-center  items-center mb-16 gap-5'>
-                <div className='text-4xl font-bold'>
+                <div className='text-3xl lg:text-4xl font-bold'>
                     {headline}
                 </div>
                 <div className='flex gap-2 mb-5 justify-center'>
@@ -78,7 +81,7 @@ const Details = () => {
 
             <div className='flex flex-col items-center mt-16 gap-5'>
                 <p className='text-4xl'>Project Details</p>
-                <p>{details}</p>
+                <p className='px-5 lg:px-60 '>{details}</p>
             </div>
         </div>
     );

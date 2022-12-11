@@ -14,10 +14,15 @@ const Projects = () => {
     }, [])
 
     return (
-        <div className='px-8 py-14 lg:py-28 flex flex-col gap-28 lg:gap-40  bg-skills lg:px-40' id='projects' >
-            {
-                projects.map(project => <Project key={project.id} project={project}></Project>)
-            }
+        <div className='bg-background px-8 lg:px-40 py-14 lg:py-28 flex flex-col gap-10' id='projects'>
+            <div className='text-slate-200 font-bold text-3xl '>
+                Some of My Projects
+            </div>
+            <div className='flex flex-col gap-28 lg:gap-40'   >
+                {
+                    projects.map(project => <Project key={project.id} project={project}></Project>)
+                }
+            </div>
         </div>
     );
 };

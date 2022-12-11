@@ -6,12 +6,15 @@ import { Link, NavLink } from 'react-router-dom';
 const Navbar = () => {
     const menuItem = <>
         <li className='text-sm'>
-            <a href="#intro" >About</a>
+            <a href="#about" >About</a>
         </li>
-
         <li className='text-sm'>
             <a href="#projects">Projects</a>
         </li>
+        <li className='text-sm'>
+            <Link to='/blog'>Blog</Link>
+        </li>
+
         <li className='text-sm'>
             <a href="#contact">Contact</a>
         </li>
