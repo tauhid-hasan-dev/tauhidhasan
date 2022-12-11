@@ -8,9 +8,7 @@ const Navbar = () => {
         <li className='text-sm'>
             <a href="#intro" >About</a>
         </li>
-        {/* <li >
-            <a href="#experience">Experiences</a>
-        </li> */}
+
         <li className='text-sm'>
             <a href="#projects">Projects</a>
         </li>
