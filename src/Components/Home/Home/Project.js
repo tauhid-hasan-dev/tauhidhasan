@@ -37,7 +37,7 @@ const Project = ({ project }) => {
                 </div> */}
                 </div>
             </div>
-            <button className="hover:bg-slate-600 border border-text px-2  py-1  rounded mt-5 text-slate-300 " target="_blank">Project Details</button>
+            <button className=" px-2  py-1  rounded mt-5 text-slate-300 bg-gradient-to-r from-blue-600 to-sky-600 hover:from-blue-700 hover:to-sky-700" target="_blank">Project Details</button>
         </div>
     );
 };

@@ -18,7 +18,7 @@ const Navbar = () => {
             <a href="#contact">Contact</a>
         </li>
         <li className='text-sm'>
-            <a href='https://drive.google.com/file/d/1ix8ayp0IoC7mFdCLm0ZmK4v3okuf3HhK/view' className='pl-2 lg:pl-4 ' target="_blank" ><button className="hover:bg-slate-600 border border-text px-2  py-1  rounded " target="_blank">Resume</button></a>
+            <a href='https://drive.google.com/file/d/1ix8ayp0IoC7mFdCLm0ZmK4v3okuf3HhK/view' className='pl-2 lg:pl-4 ' target="_blank" ><button className=" shadow-lg px-2  py-1  rounded bg-gradient-to-r from-blue-600 to-sky-600 hover:from-blue-700 hover:to-sky-700" target="_blank">Resume</button></a>
         </li>
 
     </>
@@ -35,10 +35,12 @@ const Navbar = () => {
                 </div>
                 <Link to="/" className="normal-case text-xl   lg:text-4xl text-white font-semibold ">
                     <div className='flex  items-center justify-center'>
-                        <span className='block ml-2 font-semibold text-text text-3xl lg:text-4xl'>tasan</span>
+                        <span className='block ml-2 font-semibold text-text text-3xl lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-text to-blue-500'>tasan</span>
                     </div>
                 </Link>
             </div>
+
+            bg-gradient-to-r from-red-500 to-red-800
 
 
 

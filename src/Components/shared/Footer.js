@@ -4,9 +4,7 @@ import { SiGithub, SiLinkedin } from "react-icons/si";
 const Footer = () => {
     return (
         <footer className="footer items-center p-4 bg-skills px-20 text-neutral-content">
-
             <div className='flex items-center justify-center '>
-
                 <p>Copyright © 2022 - All right reserved</p>
             </div>
 
