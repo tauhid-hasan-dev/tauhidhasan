@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaMobile, FaPhoneAlt } from 'react-icons/fa';
+import { FaFileDownload, FaMobile, FaPhoneAlt } from 'react-icons/fa';
 import { SiGithub, SiLinkedin } from "react-icons/si";
 import { MdEmail, MdCall } from "react-icons/md";
 
@@ -21,8 +21,9 @@ const Footer = () => {
             </div>
 
             <div className="flex">
-                <a href="https://github.com/tauhid-hasan-dev" target='blank'><SiGithub className='text-lg text-gray-300 hover:text-text' ></SiGithub></a>
-                <a href="https://www.linkedin.com/in/tauhid-hasan/" target='blank'><SiLinkedin className='text-lg hover:text-text  text-slate-300' ></SiLinkedin></a>
+                <a href="https://github.com/tauhid-hasan-dev" target='blank'><SiGithub className='text-lg lg:text-[16px] text-slate-400 hover:text-text' ></SiGithub></a>
+                <a href="https://www.linkedin.com/in/tauhid-hasan/" target='blank'><SiLinkedin className='text-lg lg:text-[16px] text-slate-400 hover:text-text' ></SiLinkedin></a>
+                <a href="https://drive.google.com/file/d/1ix8ayp0IoC7mFdCLm0ZmK4v3okuf3HhK/view" target='blank'><FaFileDownload className=' text-lg lg:text-[16px] text-slate-400 hover:text-text' ></FaFileDownload></a>
             </div>
         </footer>
     );

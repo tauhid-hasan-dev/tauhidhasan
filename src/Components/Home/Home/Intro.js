@@ -7,17 +7,20 @@ const Intro = () => {
 
     return (
         <div className='mt-8 lg:mt-16 bg-background px-8 lg:px-56 pt-24 lg:pt-28 pb-0 lg:pb-10 flex flex-col gap-12'>
-            <div className="App ">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                </header>
-            </div>
-            <div className=' flex flex-col gap-1 lg:gap-5 ' >
-                <div className='flex flex-col lg:flex-row lg:items-end items-start gap-2'>
-                    <p className='text-text'></p> <p className='text-3xl lg:text-5xl font-semibold text-slate-500'>Tauhid Hasan</p>
+
+            <div className=' flex flex-col lg:flex-row justify-between gap-1 lg:gap-5 ' >
+                <div className='flex flex-col gap-1 lg:gap-5'>
+                    <div className='flex flex-col lg:flex-row lg:items-end items-start gap-2'>
+                        <p className='text-text'></p> <p className='text-3xl lg:text-5xl font-semibold text-slate-500'>Tauhid Hasan</p>
+                    </div>
+                    <div className='flex flex-col lg:flex-row lg:items-end items-start gap-2  '>
+                        <p className='text-text'> </p> <p className='text-4xl lg:text-6xl font-semibold text-slate-300'>Frontend Developer </p>
+                    </div>
                 </div>
-                <div className='flex flex-col lg:flex-row lg:items-end items-start gap-2  '>
-                    <p className='text-text'> </p> <p className='text-4xl lg:text-6xl font-semibold text-slate-300'>Frontend Developer </p>
+                <div className="App hidden lg:block">
+                    <header className="App-header">
+                        <img src={logo} className="App-logo" alt="logo" />
+                    </header>
                 </div>
 
             </div>
