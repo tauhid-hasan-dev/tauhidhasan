@@ -9,7 +9,7 @@ const Blog = () => {
                 <FaHome className=''></FaHome>
             </div></Link>
             <div className='text-3xl lg:text-4xl text-slate-200 font-bold flex justify-center'>
-                <p>Blog</p>
+                <p>Blogs</p>
             </div>
             <div className='flex justify-center mt-24 '>
                 <p className='text-2xl lg:text-4xl text-slate-300' >Comming Soon...</p>
